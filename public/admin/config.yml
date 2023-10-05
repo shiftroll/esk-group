@@ -1,0 +1,573 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+  branch: master
+media_folder: theme/assets/images
+public_folder: /assets/images
+collections:
+  - name: pages
+    label: Pages
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    folder: cms/pages
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '{{slug}}.html'
+      - label: Seo
+        name: seo
+        widget: object
+        collapsed: true
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Description
+            name: description
+            widget: string
+            required: false
+          - label: No index
+            name: noindex
+            widget: boolean
+            default: false
+            required: false
+          - label: Open Graph Title
+            name: og:title
+            widget: string
+            required: false
+          - label: Open Graph Image
+            name: og:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: Twitter Title
+            name: twitter:title
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Card
+            name: twitter:card
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Site
+            name: twitter:site
+            widget: string
+            required: false
+          - label: Twitter Creator
+            name: twitter:creator
+            widget: string
+            required: false
+          - label: Additional HTML tags
+            name: additional_tags
+            widget: text
+            required: false
+  - label: Theme Settings
+    name: settings
+    identifier_field: title
+    extension: json
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    files:
+      - label: General
+        name: site
+        file: cms/_data/settings/site.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: General
+          - hint: Full domain url (needed for a correct sitemap file)
+            name: domain
+            label: Domain
+            widget: string
+            required: false
+          - name: favicon
+            label: Favicon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: apple_touch_icon
+            label: Apple Touch Icon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: header_additional_content
+            label: Additional Content Header
+            hint: Content here will be placed before </head> tag
+            widget: text
+            required: false
+          - name: footer_additional_content
+            label: Additional Content Footer
+            hint: Content here will be placed before </body> tag
+            widget: text
+            required: false
+          - name: images_optimization
+            label: Images Optimization
+            widget: object
+            collapsed: false
+            fields:
+              - label: Image Formats
+                name: formats
+                widget: select
+                multiple: true
+                options:
+                  - label: Avif
+                    value: avif
+                  - label: Webp
+                    value: webp
+              - label: Image Dimensions
+                name: dimensions
+                widget: select
+                multiple: true
+                options:
+                  - label: '500'
+                    value: 500
+                  - label: '800'
+                    value: 800
+                  - label: '1080'
+                    value: 1080
+                  - label: '1600'
+                    value: 1600
+                  - label: '2000'
+                    value: 2000
+                  - label: '2600'
+                    value: 2600
+      - label: Colors
+        name: colors
+        file: cms/_data/colors.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Colors
+      - label: Texts
+        name: texts
+        file: cms/_data/texts.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Texts
+          - hint: 'Original text: Menu, key: 24897f'
+            label: Text
+            name: 24897f
+            widget: string
+          - hint: 'Original text: Building Dreams. , key: -563992'
+            label: Text
+            name: '-563992'
+            widget: string
+          - hint: 'Original text: Crafting Excellence., key: -1af23210'
+            label: Text
+            name: '-1af23210'
+            widget: string
+          - hint: 'Original text: What we do, key: -2d422d1f'
+            label: Text
+            name: '-2d422d1f'
+            widget: string
+          - hint: 'Original text: Creating Environments , key: -700931c7'
+            label: Text
+            name: '-700931c7'
+            widget: string
+          - hint: >-
+              Original text: that Inspire: Our Threefold Expertise, key:
+              -4cde596b
+            label: Text
+            name: '-4cde596b'
+            widget: string
+          - hint: 'Original text: Get in Touch, key: -53f399f2'
+            label: Text
+            name: '-53f399f2'
+            widget: string
+          - hint: 'Original text: Architecture, key: 3bd7bd73'
+            label: Text
+            name: 3bd7bd73
+            widget: string
+          - hint: |-
+              Original text: Our products capture and aggregate organisational
+                            data., key: -47e61df5
+            label: Text
+            name: '-47e61df5'
+            widget: string
+          - hint: 'Original text: Construction, key: -6d2c9b0f'
+            label: Text
+            name: '-6d2c9b0f'
+            widget: string
+          - hint: |-
+              Original text: Your data is transformed into a salient and
+                            comprehensive organisational narrative., key: 4d74ea3b
+            label: Text
+            name: 4d74ea3b
+            widget: text
+          - hint: 'Original text: Landspace, key: -33420625'
+            label: Text
+            name: '-33420625'
+            widget: string
+          - hint: |-
+              Original text: We empower organisational growth by validating your
+                            true borrowing capacity., key: 3fce164f
+            label: Text
+            name: 3fce164f
+            widget: string
+          - hint: 'Original text: Our Businesses, key: -64b519fe'
+            label: Text
+            name: '-64b519fe'
+            widget: string
+          - hint: 'Original text: ESK Architecture, key: 26a6df56'
+            label: Text
+            name: 26a6df56
+            widget: string
+          - hint: 'Original text: Crafting Remarkable Spaces, key: 20a69775'
+            label: Text
+            name: 20a69775
+            widget: string
+          - hint: 'Original text: Learn more, key: -52aefc2f'
+            label: Text
+            name: '-52aefc2f'
+            widget: string
+          - hint: 'Original text: ESK Construction, key: 7da286d4'
+            label: Text
+            name: 7da286d4
+            widget: string
+          - hint: 'Original text: Transforming Visions into Reality, key: -73eeb631'
+            label: Text
+            name: '-73eeb631'
+            widget: string
+          - hint: 'Original text: ESK Landscape, key: -43300c68'
+            label: Text
+            name: '-43300c68'
+            widget: string
+          - hint: >-
+              Original text: Designing Tomorrow's Landscapes, Today, key:
+              -3a2ad7fe
+            label: Text
+            name: '-3a2ad7fe'
+            widget: string
+          - hint: 'Original text: We partnered with, key: -2986aaf'
+            label: Text
+            name: '-2986aaf'
+            widget: string
+          - hint: 'Original text: Logo1, key: 462ffc6'
+            label: Text
+            name: 462ffc6
+            widget: string
+          - hint: 'Original text: Logo2, key: 462ffc7'
+            label: Text
+            name: 462ffc7
+            widget: string
+          - hint: 'Original text: Logo3, key: 462ffc8'
+            label: Text
+            name: 462ffc8
+            widget: string
+          - hint: 'Original text: Logo4, key: 462ffc9'
+            label: Text
+            name: 462ffc9
+            widget: string
+          - hint: 'Original text: Logo5, key: 462ffca'
+            label: Text
+            name: 462ffca
+            widget: string
+          - hint: 'Original text: Why ESK, key: -4d91271b'
+            label: Text
+            name: '-4d91271b'
+            widget: string
+          - hint: >-
+              Original text: Building, Designing, Growing: Our Integrated
+              Approach, key: -6a4db84
+            label: Text
+            name: '-6a4db84'
+            widget: string
+          - hint: 'Original text: Learn More, key: -52bd880f'
+            label: Text
+            name: '-52bd880f'
+            widget: string
+          - hint: 'Original text: Ready to Start with Us?, key: -1aa8c13'
+            label: Text
+            name: '-1aa8c13'
+            widget: string
+          - hint: 'Original text: Get in Touch., key: -2a7fa420'
+            label: Text
+            name: '-2a7fa420'
+            widget: string
+          - hint: 'Original text: Landscape, key: -3347ed65'
+            label: Text
+            name: '-3347ed65'
+            widget: string
+          - hint: 'Original text: Why Us, key: -659951ca'
+            label: Text
+            name: '-659951ca'
+            widget: string
+          - hint: 'Original text: About, key: 3c2336d'
+            label: Text
+            name: 3c2336d
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: >-
+              Original text: ©2023 PT Estetika Surya Kencana. All rights
+              reserved., key: 6fedafd9
+            label: Text
+            name: 6fedafd9
+            widget: string
+          - hint: |-
+              Original text: Our products capture and aggregate organisational
+                              data., key: -63c997b5
+            label: Text
+            name: '-63c997b5'
+            widget: string
+          - hint: |-
+              Original text: Your data is transformed into a salient and
+                              comprehensive organisational narrative., key: 2e71023b
+            label: Text
+            name: 2e71023b
+            widget: text
+          - hint: |-
+              Original text: We empower organisational growth by validating your
+                              true borrowing capacity., key: -46fad5b1
+            label: Text
+            name: '-46fad5b1'
+            widget: text
+      - label: Links
+        name: links
+        file: cms/_data/links.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Links
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
+          - hint: 'Original link: /get-in-touch/, key: 6ba004f2'
+            label: Link
+            name: 6ba004f2
+            widget: string
+          - hint: 'Original link: /esk-architecture/, key: -6f799f63'
+            label: Link
+            name: '-6f799f63'
+            widget: string
+          - hint: 'Original link: /esk-construction/, key: 18ffa8df'
+            label: Link
+            name: 18ffa8df
+            widget: string
+          - hint: 'Original link: /esk-landscape/, key: 7790e913'
+            label: Link
+            name: '7790e913'
+            widget: string
+          - hint: 'Original link: /why-esk/, key: -2f17859a'
+            label: Link
+            name: '-2f17859a'
+            widget: string
+          - hint: 'Original link: /about/, key: 61642f31'
+            label: Link
+            name: 61642f31
+            widget: string
+          - hint: 'Original link: /, key: 2f'
+            label: Link
+            name: 2f
+            widget: string
+          - hint: 'Original link: http://instagram.com, key: -5cd3f38d'
+            label: Link
+            name: '-5cd3f38d'
+            widget: string
+      - label: Images
+        name: images
+        file: cms/_data/images.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Images
+          - label: Image
+            name: i24f8a387
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 708ed7f8
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i23c1a0a9
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i128c1502
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5a32f477
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-6cb992e7'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-186211a0'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2a17dc03'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7ad7433f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 101fa572
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-295906dc'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-294aef5b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-293cd7da'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+publish_mode: editorial_workflow
