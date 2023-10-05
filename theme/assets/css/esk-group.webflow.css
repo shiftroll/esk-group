@@ -243,6 +243,10 @@
   overflow: visible;
 }
 
+.logo.black, .logo.white {
+  position: relative;
+}
+
 .menu-button {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
@@ -886,8 +890,12 @@
 }
 
 .div-block-5 {
-  width: 88px;
+  width: auto;
   height: 30px;
+  max-width: 500px;
+  min-width: 150px;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
   align-items: center;
   display: flex;
   position: relative;
@@ -926,6 +934,21 @@
 
 .div-block-8 {
   height: 2px;
+}
+
+.text-block {
+  position: relative;
+}
+
+.page-title {
+  color: #2c4046;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.page-title.white {
+  color: #fff;
 }
 
 @media screen and (max-width: 991px) {

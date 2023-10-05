@@ -331,6 +331,24 @@ collections:
             label: Text
             name: 6fedafd9
             widget: string
+          - hint: |-
+              Original text: Our products capture and aggregate organisational
+                              data., key: -63c997b5
+            label: Text
+            name: '-63c997b5'
+            widget: string
+          - hint: |-
+              Original text: Your data is transformed into a salient and
+                              comprehensive organisational narrative., key: 2e71023b
+            label: Text
+            name: 2e71023b
+            widget: text
+          - hint: |-
+              Original text: We empower organisational growth by validating your
+                              true borrowing capacity., key: -46fad5b1
+            label: Text
+            name: '-46fad5b1'
+            widget: text
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -346,6 +364,34 @@ collections:
           - hint: 'Original link: /get-in-touch/, key: 6ba004f2'
             label: Link
             name: 6ba004f2
+            widget: string
+          - hint: 'Original link: /esk-architecture/, key: -6f799f63'
+            label: Link
+            name: '-6f799f63'
+            widget: string
+          - hint: 'Original link: /esk-construction/, key: 18ffa8df'
+            label: Link
+            name: 18ffa8df
+            widget: string
+          - hint: 'Original link: /esk-landscape/, key: 7790e913'
+            label: Link
+            name: '7790e913'
+            widget: string
+          - hint: 'Original link: /why-esk/, key: -2f17859a'
+            label: Link
+            name: '-2f17859a'
+            widget: string
+          - hint: 'Original link: /about/, key: 61642f31'
+            label: Link
+            name: 61642f31
+            widget: string
+          - hint: 'Original link: /, key: 2f'
+            label: Link
+            name: 2f
+            widget: string
+          - hint: 'Original link: http://instagram.com, key: -5cd3f38d'
+            label: Link
+            name: '-5cd3f38d'
             widget: string
       - label: Images
         name: images
