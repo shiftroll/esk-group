@@ -173,6 +173,138 @@ collections:
             label: Text
             name: 24897f
             widget: string
+          - hint: 'Original text: Get in touch, key: -5230a9d2'
+            label: Text
+            name: '-5230a9d2'
+            widget: string
+          - hint: 'Original text: ESK Group Headquarters, key: -f3bc2f5'
+            label: Text
+            name: '-f3bc2f5'
+            widget: string
+          - hint: 'Original text: SOUTH78, 9, key: 4c3b5d37'
+            label: Text
+            name: 4c3b5d37
+            widget: string
+          - hint: 'Original text: th, key: e74'
+            label: Text
+            name: e74
+            widget: string
+          - hint: 'Original text:  – 11, key: 1057f16d'
+            label: Text
+            name: 1057f16d
+            widget: string
+          - hint: 'Original text:  Floor, key: 3aa847cc'
+            label: Text
+            name: 3aa847cc
+            widget: string
+          - hint: 'Original text: Jln. Boulevard Gading Serpong, key: 6f881ab0'
+            label: Text
+            name: 6f881ab0
+            widget: string
+          - hint: 'Original text: Blok O No. 7 & 8, Gading Serpong, , key: 52f4682f'
+            label: Text
+            name: 52f4682f
+            widget: string
+          - hint: 'Original text: Tangerang, Banten 15334., key: 6137fef5'
+            label: Text
+            name: 6137fef5
+            widget: string
+          - hint: 'Original text: Email, key: 3ff5b7c'
+            label: Text
+            name: 3ff5b7c
+            widget: string
+          - hint: 'Original text: HQ@eskgroup.co.id, key: -146e27d8'
+            label: Text
+            name: '-146e27d8'
+            widget: string
+          - hint: 'Original text: Phone (Office), key: -98b21c9'
+            label: Text
+            name: '-98b21c9'
+            widget: string
+          - hint: 'Original text: +62 5098 6988, key: -5d99a650'
+            label: Text
+            name: '-5d99a650'
+            widget: string
+          - hint: 'Original text: Phone (WhatsApp), key: -564ba83f'
+            label: Text
+            name: '-564ba83f'
+            widget: string
+          - hint: 'Original text: +62 811 1211 1101, key: -46e3c121'
+            label: Text
+            name: '-46e3c121'
+            widget: string
+          - hint: 'Original text: Make an Enquiry, key: 380c0902'
+            label: Text
+            name: 380c0902
+            widget: string
+          - hint: 'Original text: Name, key: 24eeab'
+            label: Text
+            name: 24eeab
+            widget: string
+          - hint: 'Original text: Enquiry Type, key: -60e0d349'
+            label: Text
+            name: '-60e0d349'
+            widget: string
+          - hint: 'Original text: Architecture, key: 3bd7bd73'
+            label: Text
+            name: 3bd7bd73
+            widget: string
+          - hint: 'Original text: Construction, key: -6d2c9b0f'
+            label: Text
+            name: '-6d2c9b0f'
+            widget: string
+          - hint: 'Original text: Landscape, key: -3347ed65'
+            label: Text
+            name: '-3347ed65'
+            widget: string
+          - hint: 'Original text: Email Address, key: -2b7010d0'
+            label: Text
+            name: '-2b7010d0'
+            widget: string
+          - hint: >-
+              Original text: Thank you! Your submission has been received!, key:
+              5a0ea5a1
+            label: Text
+            name: 5a0ea5a1
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
+            label: Text
+            name: '-7c112e99'
+            widget: string
+          - hint: 'Original text: Why ESK, key: -4d91271b'
+            label: Text
+            name: '-4d91271b'
+            widget: string
+          - hint: >-
+              Original text: Building, Designing, Growing: Our Integrated
+              Approach, key: -6a4db84
+            label: Text
+            name: '-6a4db84'
+            widget: string
+          - hint: 'Original text: Learn More, key: -52bd880f'
+            label: Text
+            name: '-52bd880f'
+            widget: string
+          - hint: 'Original text: Why Us, key: -659951ca'
+            label: Text
+            name: '-659951ca'
+            widget: string
+          - hint: 'Original text: About, key: 3c2336d'
+            label: Text
+            name: 3c2336d
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: >-
+              Original text: ©2023 PT Estetika Surya Kencana. All rights
+              reserved., key: 6fedafd9
+            label: Text
+            name: 6fedafd9
+            widget: string
           - hint: 'Original text: Building Dreams. , key: -563992'
             label: Text
             name: '-563992'
@@ -199,25 +331,17 @@ collections:
             label: Text
             name: '-53f399f2'
             widget: string
-          - hint: 'Original text: Architecture, key: 3bd7bd73'
-            label: Text
-            name: 3bd7bd73
-            widget: string
           - hint: |-
               Original text: Our products capture and aggregate organisational
-                            data., key: -47e61df5
+                              data., key: -63c997b5
             label: Text
-            name: '-47e61df5'
-            widget: string
-          - hint: 'Original text: Construction, key: -6d2c9b0f'
-            label: Text
-            name: '-6d2c9b0f'
+            name: '-63c997b5'
             widget: string
           - hint: |-
               Original text: Your data is transformed into a salient and
-                            comprehensive organisational narrative., key: 4d74ea3b
+                              comprehensive organisational narrative., key: 2e71023b
             label: Text
-            name: 4d74ea3b
+            name: 2e71023b
             widget: text
           - hint: 'Original text: Landspace, key: -33420625'
             label: Text
@@ -225,10 +349,10 @@ collections:
             widget: string
           - hint: |-
               Original text: We empower organisational growth by validating your
-                            true borrowing capacity., key: 3fce164f
+                              true borrowing capacity., key: -46fad5b1
             label: Text
-            name: 3fce164f
-            widget: string
+            name: '-46fad5b1'
+            widget: text
           - hint: 'Original text: Our Businesses, key: -64b519fe'
             label: Text
             name: '-64b519fe'
@@ -287,20 +411,6 @@ collections:
             label: Text
             name: 462ffca
             widget: string
-          - hint: 'Original text: Why ESK, key: -4d91271b'
-            label: Text
-            name: '-4d91271b'
-            widget: string
-          - hint: >-
-              Original text: Building, Designing, Growing: Our Integrated
-              Approach, key: -6a4db84
-            label: Text
-            name: '-6a4db84'
-            widget: string
-          - hint: 'Original text: Learn More, key: -52bd880f'
-            label: Text
-            name: '-52bd880f'
-            widget: string
           - hint: 'Original text: Ready to Start with Us?, key: -1aa8c13'
             label: Text
             name: '-1aa8c13'
@@ -309,46 +419,192 @@ collections:
             label: Text
             name: '-2a7fa420'
             widget: string
-          - hint: 'Original text: Landscape, key: -3347ed65'
+          - hint: >-
+              Original text: Leading Architecture and Construction Company in
+              Indonesia, key: -8ceaee1
             label: Text
-            name: '-3347ed65'
+            name: '-8ceaee1'
             widget: string
-          - hint: 'Original text: Why Us, key: -659951ca'
+          - hint: 'Original text: About ESK Group, key: -69f35f17'
             label: Text
-            name: '-659951ca'
-            widget: string
-          - hint: 'Original text: About, key: 3c2336d'
-            label: Text
-            name: 3c2336d
-            widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
+            name: '-69f35f17'
             widget: string
           - hint: >-
-              Original text: ©2023 PT Estetika Surya Kencana. All rights
-              reserved., key: 6fedafd9
+              Original text: Our mission is to bring together the worlds of
+              construction, architecture, and landscaping in a way that's both
+              human-centered and interconnected., key: 3d0dd5b2
             label: Text
-            name: 6fedafd9
+            name: 3d0dd5b2
+            widget: text
+          - hint: >-
+              Original text: We believe that buildings and landscapes are more
+              than just physical structure. They hold the stories and dreams of
+              the people they serve. , key: -57f07149
+            label: Text
+            name: '-57f07149'
+            widget: text
+          - hint: 'Original text: Leadership, key: -421bb11b'
+            label: Text
+            name: '-421bb11b'
+            widget: string
+          - hint: 'Original text: B. I. Sono, key: 170e384'
+            label: Text
+            name: '170e384'
+            widget: string
+          - hint: 'Original text: Managing Director, key: -15d9bef6'
+            label: Text
+            name: '-15d9bef6'
+            widget: string
+          - hint: 'Original text: Michael Antonio Halim, key: -60d8eb16'
+            label: Text
+            name: '-60d8eb16'
+            widget: string
+          - hint: 'Original text: Director, key: 1284b7ac'
+            label: Text
+            name: 1284b7ac
+            widget: string
+          - hint: 'Original text: Tjhie Sugianto, key: -7485f502'
+            label: Text
+            name: '-7485f502'
+            widget: string
+          - hint: 'Original text: Partner, key: 33f574a8'
+            label: Text
+            name: 33f574a8
+            widget: string
+          - hint: 'Original text: Arvin Bimananda, key: 7f7b907'
+            label: Text
+            name: 7f7b907
+            widget: string
+          - hint: 'Original text: Architect, key: 1424fbd5'
+            label: Text
+            name: 1424fbd5
+            widget: string
+          - hint: >-
+              Original text: We understand that the spaces we craft are meant ,
+              key: -62ca206c
+            label: Text
+            name: '-62ca206c'
+            widget: string
+          - hint: >-
+              Original text: to enhance lives and experiences. That's why our ,
+              key: 13bba277
+            label: Text
+            name: 13bba277
+            widget: string
+          - hint: >-
+              Original text: designs are always tailored to the specific , key:
+              -3fc89c12
+            label: Text
+            name: '-3fc89c12'
+            widget: string
+          - hint: 'Original text: needs and aspirations of our clients, key: 630140b2'
+            label: Text
+            name: 630140b2
             widget: string
           - hint: |-
               Original text: Our products capture and aggregate organisational
-                              data., key: -63c997b5
+                            data., key: -47e61df5
             label: Text
-            name: '-63c997b5'
+            name: '-47e61df5'
             widget: string
           - hint: |-
               Original text: Your data is transformed into a salient and
-                              comprehensive organisational narrative., key: 2e71023b
+                            comprehensive organisational narrative., key: 4d74ea3b
             label: Text
-            name: 2e71023b
+            name: 4d74ea3b
             widget: text
           - hint: |-
               Original text: We empower organisational growth by validating your
-                              true borrowing capacity., key: -46fad5b1
+                            true borrowing capacity., key: 3fce164f
             label: Text
-            name: '-46fad5b1'
-            widget: text
+            name: 3fce164f
+            widget: string
+          - hint: 'Original text: Streamline process. , key: -2cdae52b'
+            label: Text
+            name: '-2cdae52b'
+            widget: string
+          - hint: 'Original text: Less miscommunication. , key: -3a7d968'
+            label: Text
+            name: '-3a7d968'
+            widget: string
+          - hint: 'Original text: More efficient execution., key: 5c26b140'
+            label: Text
+            name: 5c26b140
+            widget: string
+          - hint: >-
+              Original text: Dedicated to fairness, simplicity, and embracing ,
+              key: 454065b9
+            label: Text
+            name: 454065b9
+            widget: string
+          - hint: 'Original text: new possibilities., key: -722028c3'
+            label: Text
+            name: '-722028c3'
+            widget: string
+          - hint: >-
+              Original text: Dedicated to fairness, simplicity, and embracing
+              new possibilities., key: -242e5f4a
+            label: Text
+            name: '-242e5f4a'
+            widget: string
+          - hint: 'Original text: Understand your every , key: -74f19410'
+            label: Text
+            name: '-74f19410'
+            widget: string
+          - hint: 'Original text: unique needs., key: 53c7e860'
+            label: Text
+            name: 53c7e860
+            widget: string
+          - hint: 'Original text: Why ESK Group, key: 7698f364'
+            label: Text
+            name: 7698f364
+            widget: string
+          - hint: 'Original text: Our Commitment , key: -20193f69'
+            label: Text
+            name: '-20193f69'
+            widget: string
+          - hint: 'Original text: to Excellence, key: 27321fc5'
+            label: Text
+            name: 27321fc5
+            widget: string
+          - hint: 'Original text: The Artistry of , key: -5f177e9a'
+            label: Text
+            name: '-5f177e9a'
+            widget: string
+          - hint: 'Original text: Construction. , key: 2b8df263'
+            label: Text
+            name: 2b8df263
+            widget: string
+          - hint: 'Original text: The Precision of , key: -18d8b728'
+            label: Text
+            name: '-18d8b728'
+            widget: string
+          - hint: 'Original text: Architecture. , key: -5b21cd9b'
+            label: Text
+            name: '-5b21cd9b'
+            widget: string
+          - hint: 'Original text: The Beauty of , key: 77d2ead4'
+            label: Text
+            name: 77d2ead4
+            widget: string
+          - hint: 'Original text: Landscaping., key: 60c09e96'
+            label: Text
+            name: 60c09e96
+            widget: string
+          - hint: 'Original text: Dedicated to fairness, simplicity, , key: -3a2b3ec8'
+            label: Text
+            name: '-3a2b3ec8'
+            widget: string
+          - hint: 'Original text: and embracing new possibilities., key: 3a0fbf7e'
+            label: Text
+            name: 3a0fbf7e
+            widget: string
+          - hint: >-
+              Original text: Less miscommunication. More efficient execution.,
+              key: -31d15a58
+            label: Text
+            name: '-31d15a58'
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -361,9 +617,13 @@ collections:
             label: Link
             name: '23'
             widget: string
-          - hint: 'Original link: /get-in-touch/, key: 6ba004f2'
+          - hint: 'Original link: mailto:HQ@eskgroup.co.id, key: 7daa9d20'
             label: Link
-            name: 6ba004f2
+            name: 7daa9d20
+            widget: string
+          - hint: 'Original link: http://wa.me/628111211101, key: 1e7a83a'
+            label: Link
+            name: 1e7a83a
             widget: string
           - hint: 'Original link: /esk-architecture/, key: -6f799f63'
             label: Link
@@ -385,6 +645,10 @@ collections:
             label: Link
             name: 61642f31
             widget: string
+          - hint: 'Original link: /get-in-touch/, key: 6ba004f2'
+            label: Link
+            name: 6ba004f2
+            widget: string
           - hint: 'Original link: /, key: 2f'
             label: Link
             name: 2f
@@ -403,6 +667,19 @@ collections:
             default: Images
           - label: Image
             name: i24f8a387
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i128c1502
             widget: object
             fields:
               - name: url
@@ -441,7 +718,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: i128c1502
+            name: 5a32f477
             widget: object
             fields:
               - name: url
@@ -454,7 +731,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 5a32f477
+            name: 35e4d0cb
             widget: object
             fields:
               - name: url
@@ -519,7 +796,33 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 101fa572
+            name: 38caf0a
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 5c410bc7
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-696592de'
             widget: object
             fields:
               - name: url
@@ -570,4 +873,83 @@ collections:
                 label: Image Alt
                 widget: string
                 required: false
+          - label: Image
+            name: 536aa2d6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4a79d65
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7c97fce7
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 101fa572
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 483e93df
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2c890d8c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+local_backend: true
 publish_mode: editorial_workflow
