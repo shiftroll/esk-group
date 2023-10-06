@@ -874,7 +874,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 38caf0a
+            name: 5c410bc7
             widget: object
             fields:
               - name: url
@@ -887,7 +887,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 5c410bc7
+            name: 38caf0a
             widget: object
             fields:
               - name: url

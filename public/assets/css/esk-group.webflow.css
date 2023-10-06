@@ -268,7 +268,7 @@
   display: grid;
 }
 
-.frame-19.contact {
+.frame-19.contact, .frame-19.contact-points {
   width: 100%;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
@@ -1493,6 +1493,7 @@
 
 .frame.contact-us.enquiry {
   height: 100%;
+  display: none;
 }
 
 .contact-us-hero-section {
@@ -2025,8 +2026,30 @@
     align-items: flex-start;
   }
 
-  .frame-14, .frame-18 {
+  .frame-14 {
     width: 100%;
+  }
+
+  .frame-14.contact {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .frame-18 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .frame-18.contact {
+    align-items: flex-start;
+  }
+
+  .text.contact-us.address {
+    width: 100%;
+  }
+
+  .text.contact-us.inquiry {
+    text-align: center;
   }
 
   .frame-19 {
@@ -2034,7 +2057,26 @@
     padding: 20px 0;
   }
 
-  .point-div, .point-frame {
+  .frame-19.contact {
+    padding-left: 2dvw;
+    padding-right: 2dvw;
+  }
+
+  .frame-19.contact-points {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .point-div {
+    width: 100%;
+  }
+
+  .point-div.contact.mobile {
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+  }
+
+  .point-frame {
     width: 100%;
   }
 
@@ -2177,6 +2219,19 @@
     align-items: flex-start;
   }
 
+  .frame.contact-us {
+    height: 100%;
+    margin-bottom: 50px;
+    padding-left: 4dvw;
+    padding-right: 0;
+  }
+
+  .frame.contact-us.enquiry {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: none;
+  }
+
   .contact-us-header {
     font-size: 3em;
   }
@@ -2188,6 +2243,43 @@
     grid-row-gap: 90px;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .icon-contact {
+    height: 50%;
+    opacity: .75;
+  }
+
+  .section-1a.contact {
+    height: 100%;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    padding-bottom: 100px;
+  }
+
+  .div-block-10 {
+    flex-direction: column;
+  }
+
+  .form-block {
+    padding-right: 0;
+  }
+
+  .form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
+
+  .div-block-15.mobile {
+    justify-content: flex-start;
+  }
+
+  .div-block-15.mobile.wa {
+    padding-left: 2px;
   }
 }
 
@@ -2355,6 +2447,10 @@
   .feature-desc {
     max-width: 100%;
     min-width: 0;
+  }
+
+  .frame.contact-us {
+    height: 100%;
   }
 
   .frame.contact-us.enquiry {
