@@ -2043,12 +2043,27 @@
     padding-left: 2.5dvw;
   }
 
-  .section-3, .horizontal-scroll-frame {
+  .section-3 {
     padding-left: 10dvw;
     padding-right: 10dvw;
   }
 
-  .business-tile.architecture, .business-tile.construction, .business-tile.landscape {
+  .horizontal-scroll-frame {
+    flex-direction: row;
+    padding-left: 10dvw;
+    padding-right: 10dvw;
+  }
+
+  .business-section-div {
+    justify-content: flex-start;
+  }
+
+  .business-tile.architecture {
+    width: 80dvw;
+    height: 60dvh;
+  }
+
+  .business-tile.construction, .business-tile.landscape {
     width: 70dvw;
     height: 60dvh;
   }
@@ -2178,7 +2193,7 @@
 
 @media screen and (max-width: 479px) {
   .hero-header {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .section-2 {
@@ -2187,8 +2202,26 @@
     padding-bottom: 12svh;
   }
 
+  .frame-14, .frame-18 {
+    align-items: center;
+  }
+
+  .text.contact-us.inquiry {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .section-heading {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
   .frame-19 {
     width: 100%;
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+    justify-content: space-around;
   }
 
   .texts {
@@ -2210,12 +2243,32 @@
     padding-bottom: 12svh;
   }
 
+  .horizontal-frame-title {
+    justify-content: center;
+    font-size: 12px;
+  }
+
   .text-2 {
+    font-size: 30px;
     line-height: 110%;
   }
 
-  .business-tile.architecture, .business-tile.construction, .business-tile.landscape {
-    width: 75dvw;
+  .business-tile.architecture {
+    width: 80dvw;
+    height: 50vh;
+    padding-left: 20px;
+    padding-right: 80px;
+  }
+
+  .business-tile.construction, .business-tile.landscape {
+    width: 80dvw;
+    height: 50vh;
+    padding-left: 30px;
+    padding-right: 80px;
+  }
+
+  .company-frame-home, .business-title-heading-home {
+    width: 100%;
   }
 
   .section-4 {
@@ -2304,8 +2357,30 @@
     min-width: 0;
   }
 
+  .frame.contact-us.enquiry {
+    align-items: center;
+    padding-right: 0;
+  }
+
   .contact-us-header {
     font-size: 3em;
+  }
+
+  .div-block-10 {
+    flex-direction: column;
+  }
+
+  .form-block {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .form {
+    padding-right: 0;
+  }
+
+  .submit-button {
+    width: 100%;
   }
 }
 
