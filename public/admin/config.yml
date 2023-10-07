@@ -173,6 +173,34 @@ collections:
             label: Text
             name: 24897f
             widget: string
+          - hint: 'Original text: Close, key: 3e2edd8'
+            label: Text
+            name: 3e2edd8
+            widget: string
+          - hint: 'Original text: Architecture, key: 3bd7bd73'
+            label: Text
+            name: 3bd7bd73
+            widget: string
+          - hint: 'Original text: Construction, key: -6d2c9b0f'
+            label: Text
+            name: '-6d2c9b0f'
+            widget: string
+          - hint: 'Original text: Landscape, key: -3347ed65'
+            label: Text
+            name: '-3347ed65'
+            widget: string
+          - hint: 'Original text: Why ESK, key: -4d91271b'
+            label: Text
+            name: '-4d91271b'
+            widget: string
+          - hint: 'Original text: About, key: 3c2336d'
+            label: Text
+            name: 3c2336d
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
           - hint: 'Original text: Building Dreams. , key: -563992'
             label: Text
             name: '-563992'
@@ -199,19 +227,11 @@ collections:
             label: Text
             name: '-53f399f2'
             widget: string
-          - hint: 'Original text: Architecture, key: 3bd7bd73'
-            label: Text
-            name: 3bd7bd73
-            widget: string
           - hint: |-
               Original text: Our products capture and aggregate organisational
                               data., key: -63c997b5
             label: Text
             name: '-63c997b5'
-            widget: string
-          - hint: 'Original text: Construction, key: -6d2c9b0f'
-            label: Text
-            name: '-6d2c9b0f'
             widget: string
           - hint: |-
               Original text: Your data is transformed into a salient and
@@ -287,10 +307,6 @@ collections:
             label: Text
             name: 462ffca
             widget: string
-          - hint: 'Original text: Why ESK, key: -4d91271b'
-            label: Text
-            name: '-4d91271b'
-            widget: string
           - hint: >-
               Original text: Building, Designing, Growing: Our Integrated
               Approach, key: -6a4db84
@@ -309,21 +325,9 @@ collections:
             label: Text
             name: '-2a7fa420'
             widget: string
-          - hint: 'Original text: Landscape, key: -3347ed65'
-            label: Text
-            name: '-3347ed65'
-            widget: string
           - hint: 'Original text: Why Us, key: -659951ca'
             label: Text
             name: '-659951ca'
-            widget: string
-          - hint: 'Original text: About, key: 3c2336d'
-            label: Text
-            name: 3c2336d
-            widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
             widget: string
           - hint: >-
               Original text: ©2023 PT Estetika Surya Kencana. All rights
@@ -613,14 +617,6 @@ collections:
             name: title
             widget: hidden
             default: Links
-          - hint: 'Original link: #, key: 23'
-            label: Link
-            name: '23'
-            widget: string
-          - hint: 'Original link: /get-in-touch/, key: 6ba004f2'
-            label: Link
-            name: 6ba004f2
-            widget: string
           - hint: 'Original link: /esk-architecture/, key: -6f799f63'
             label: Link
             name: '-6f799f63'
@@ -640,6 +636,14 @@ collections:
           - hint: 'Original link: /about/, key: 61642f31'
             label: Link
             name: 61642f31
+            widget: string
+          - hint: 'Original link: /get-in-touch/, key: 6ba004f2'
+            label: Link
+            name: 6ba004f2
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
             widget: string
           - hint: 'Original link: /, key: 2f'
             label: Link
@@ -718,19 +722,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 5a32f477
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: 35e4d0cb
             widget: object
             fields:
@@ -757,19 +748,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-186211a0'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-2a17dc03'
             widget: object
             fields:
@@ -783,7 +761,20 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 7ad7433f
+            name: 241ffa94
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-186211a0'
             widget: object
             fields:
               - name: url
@@ -835,6 +826,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 5a32f477
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: '-295906dc'
             widget: object
             fields:
@@ -862,6 +866,19 @@ collections:
                 required: false
           - label: Image
             name: '-293cd7da'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7ad7433f
             widget: object
             fields:
               - name: url
