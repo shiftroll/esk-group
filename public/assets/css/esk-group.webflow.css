@@ -1083,7 +1083,6 @@
 }
 
 .hamburger-menu.black {
-  filter: invert();
   -webkit-text-fill-color: inherit;
   mix-blend-mode: normal;
   background-clip: content-box;
