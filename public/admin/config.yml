@@ -423,6 +423,64 @@ collections:
             label: Text
             name: '-7c112e99'
             widget: string
+          - hint: >-
+              Original text: We understand that the spaces we craft are meant ,
+              key: -62ca206c
+            label: Text
+            name: '-62ca206c'
+            widget: string
+          - hint: >-
+              Original text: to enhance lives and experiences. That's why our ,
+              key: 13bba277
+            label: Text
+            name: 13bba277
+            widget: string
+          - hint: >-
+              Original text: designs are always tailored to the specific , key:
+              -3fc89c12
+            label: Text
+            name: '-3fc89c12'
+            widget: string
+          - hint: 'Original text: needs and aspirations of our clients, key: 630140b2'
+            label: Text
+            name: 630140b2
+            widget: string
+          - hint: 'Original text: Streamline process. , key: -2cdae52b'
+            label: Text
+            name: '-2cdae52b'
+            widget: string
+          - hint: 'Original text: Less miscommunication. , key: -3a7d968'
+            label: Text
+            name: '-3a7d968'
+            widget: string
+          - hint: 'Original text: More efficient execution., key: 5c26b140'
+            label: Text
+            name: 5c26b140
+            widget: string
+          - hint: >-
+              Original text: Dedicated to fairness, simplicity, and embracing ,
+              key: 454065b9
+            label: Text
+            name: 454065b9
+            widget: string
+          - hint: 'Original text: new possibilities., key: -722028c3'
+            label: Text
+            name: '-722028c3'
+            widget: string
+          - hint: >-
+              Original text: Dedicated to fairness, simplicity, and embracing
+              new possibilities., key: -242e5f4a
+            label: Text
+            name: '-242e5f4a'
+            widget: string
+          - hint: 'Original text: Understand your every , key: -74f19410'
+            label: Text
+            name: '-74f19410'
+            widget: string
+          - hint: 'Original text: unique needs., key: 53c7e860'
+            label: Text
+            name: 53c7e860
+            widget: string
           - hint: 'Original text: Why ESK Group, key: 7698f364'
             label: Text
             name: 7698f364
@@ -459,28 +517,6 @@ collections:
             label: Text
             name: 60c09e96
             widget: string
-          - hint: 'Original text: Streamline process. , key: -2cdae52b'
-            label: Text
-            name: '-2cdae52b'
-            widget: string
-          - hint: 'Original text: Less miscommunication. , key: -3a7d968'
-            label: Text
-            name: '-3a7d968'
-            widget: string
-          - hint: 'Original text: More efficient execution., key: 5c26b140'
-            label: Text
-            name: 5c26b140
-            widget: string
-          - hint: >-
-              Original text: Dedicated to fairness, simplicity, and embracing ,
-              key: 454065b9
-            label: Text
-            name: 454065b9
-            widget: string
-          - hint: 'Original text: new possibilities., key: -722028c3'
-            label: Text
-            name: '-722028c3'
-            widget: string
           - hint: 'Original text: Dedicated to fairness, simplicity, , key: -3a2b3ec8'
             label: Text
             name: '-3a2b3ec8'
@@ -510,42 +546,6 @@ collections:
               key: -31d15a58
             label: Text
             name: '-31d15a58'
-            widget: string
-          - hint: >-
-              Original text: Dedicated to fairness, simplicity, and embracing
-              new possibilities., key: -242e5f4a
-            label: Text
-            name: '-242e5f4a'
-            widget: string
-          - hint: >-
-              Original text: We understand that the spaces we craft are meant ,
-              key: -62ca206c
-            label: Text
-            name: '-62ca206c'
-            widget: string
-          - hint: >-
-              Original text: to enhance lives and experiences. That's why our ,
-              key: 13bba277
-            label: Text
-            name: 13bba277
-            widget: string
-          - hint: >-
-              Original text: designs are always tailored to the specific , key:
-              -3fc89c12
-            label: Text
-            name: '-3fc89c12'
-            widget: string
-          - hint: 'Original text: needs and aspirations of our clients, key: 630140b2'
-            label: Text
-            name: 630140b2
-            widget: string
-          - hint: 'Original text: Understand your every , key: -74f19410'
-            label: Text
-            name: '-74f19410'
-            widget: string
-          - hint: 'Original text: unique needs., key: 53c7e860'
-            label: Text
-            name: 53c7e860
             widget: string
           - hint: >-
               Original text: Leading Architecture and Construction Company in
@@ -928,6 +928,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 101fa572
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: 483e93df
             widget: object
             fields:
@@ -942,19 +955,6 @@ collections:
                 required: false
           - label: Image
             name: '-2c890d8c'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 101fa572
             widget: object
             fields:
               - name: url
