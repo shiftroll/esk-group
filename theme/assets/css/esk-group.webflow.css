@@ -2624,7 +2624,12 @@
     align-items: center;
   }
 
-  .frame-14, .frame-14.why-us {
+  .frame-14 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .frame-14.why-us {
     width: 100%;
   }
 
@@ -2650,6 +2655,11 @@
     text-align: center;
   }
 
+  .section-heading {
+    text-align: center;
+    font-size: 2.9em;
+  }
+
   .section-heading.about {
     font-size: 1.5em;
   }
@@ -2665,6 +2675,7 @@
 
   .frame-19 {
     width: 100%;
+    align-items: center;
     padding: 20px 0;
   }
 
@@ -2703,6 +2714,11 @@
     width: auto;
   }
 
+  .point-div-2 {
+    width: 100%;
+    justify-content: center;
+  }
+
   .navbar {
     width: 100dvw;
     padding-left: 5dvw;
@@ -2729,13 +2745,8 @@
     justify-items: stretch;
   }
 
-  .business-tile.architecture {
+  .business-tile.architecture, .business-tile.construction, .business-tile.landscape {
     width: 80dvw;
-    height: 60dvh;
-  }
-
-  .business-tile.construction, .business-tile.landscape {
-    width: 70dvw;
     height: 60dvh;
   }
 
@@ -2998,6 +3009,7 @@
 
   .section-2 {
     height: auto;
+    justify-content: center;
     padding-top: 12svh;
     padding-bottom: 12svh;
   }
@@ -3044,9 +3056,20 @@
 
   .frame-19 {
     width: 100%;
+    height: auto;
     grid-column-gap: 60px;
     grid-row-gap: 60px;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .point-div {
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .point-frame {
+    height: auto;
   }
 
   .texts {
@@ -3056,7 +3079,13 @@
 
   .point-frame-2 {
     width: 100%;
+    height: auto;
     max-width: 100%;
+  }
+
+  .point-div-2 {
+    align-items: flex-start;
+    position: relative;
   }
 
   .navbar {
