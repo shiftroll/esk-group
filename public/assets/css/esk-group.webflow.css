@@ -2069,7 +2069,7 @@ textarea.w-input, textarea.w-select {
 .div-block-1501 {
   background-color: #fc5e53;
   height: auto !important;
-  position: fixed;
+  position: relative;
 }
 
 .div-block-1499 {
@@ -2078,7 +2078,7 @@ textarea.w-input, textarea.w-select {
   width: 100svw;
   height: 3svw;
   display: flex;
-  position: fixed;
+  position: relative;
   inset: auto 0% 0%;
 }
 
@@ -2091,7 +2091,7 @@ textarea.w-input, textarea.w-select {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100svh;
+  height: 100vh;
   display: flex;
 }
 
