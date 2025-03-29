@@ -2220,10 +2220,11 @@ textarea.w-input, textarea.w-select {
   .div-block-1501 {
     height: 8svw !important;
     align-content: center;
+    position: fixed;
   }
   
   .image-53 {
-    margin-top: 8svw;
+    margin-top: 10svw;
     max-width: 85svw;
     margin-bottom: 8svw;
   }
