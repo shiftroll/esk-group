@@ -2069,7 +2069,7 @@ textarea.w-input, textarea.w-select {
 .div-block-1501 {
   background-color: #fc5e53;
   height: auto !important;
-  position: relative;
+  position: fixed;
 }
 
 .div-block-1499 {
