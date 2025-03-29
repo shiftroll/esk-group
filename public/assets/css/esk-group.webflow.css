@@ -2159,6 +2159,12 @@ textarea.w-input, textarea.w-select {
     font-size: 2svw;
   }
 
+  .div-block-1501 {
+    height: 6svw;
+    align-content: center;
+    position: fixed;
+  }
+
   .red-label {
     align-items: center;
     height: 4svw;
@@ -2178,6 +2184,12 @@ textarea.w-input, textarea.w-select {
 
   .div-block-1499 {
     height: 7svw;
+  }
+
+  .div-block-1501 {
+    height: 6svw;
+    align-content: center;
+    position: fixed;
   }
 
   .image-53 {
@@ -2204,6 +2216,12 @@ textarea.w-input, textarea.w-select {
     height: 15svw;
   }
 
+  .div-block-1501 {
+    height: 8svw;
+    align-content: center;
+    position: fixed;
+  }
+  
   .image-53 {
     max-width: 85svw;
     margin-bottom: 8svw;
