@@ -2068,7 +2068,7 @@ textarea.w-input, textarea.w-select {
 
 .div-block-1501 {
   background-color: #fc5e53;
-  height: 3svw;
+  height: auto !important;
   position: fixed;
 }
 
