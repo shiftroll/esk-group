@@ -2085,6 +2085,7 @@ textarea.w-input, textarea.w-select {
 
 .image-53 {
   max-width: 47svw;
+  margin-top: 2svw;
   margin-bottom: 2svw;
 }
 
@@ -2221,6 +2222,7 @@ textarea.w-input, textarea.w-select {
   }
   
   .image-53 {
+    margin-top: 8svw;
     max-width: 85svw;
     margin-bottom: 8svw;
   }
