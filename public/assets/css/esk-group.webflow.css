@@ -2128,7 +2128,7 @@ textarea.w-input, textarea.w-select {
 
 .div-block-1500 {
   height: 100svh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 1440px) {
