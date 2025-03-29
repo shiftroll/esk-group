@@ -2161,7 +2161,7 @@ textarea.w-input, textarea.w-select {
 
   .red-label {
     align-items: center;
-    height: 4svw;
+    height: 4svw !important;
     min-height: auto;
     max-height: none;
     padding-left: 6svw;
@@ -2189,7 +2189,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .red-label {
-    height: 6svw;
+    height: 6svw !important;
   }
 }
 
@@ -2217,7 +2217,7 @@ textarea.w-input, textarea.w-select {
 
   .red-label {
     justify-content: center;
-    height: 8svw;
+    height: 8svw !important;
     padding-left: 2svw;
     padding-right: 2svw;
   }
